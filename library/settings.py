@@ -76,7 +76,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'library.wsgi.application'
 
-DISABLE_COLLECTSTATIC = 1
 
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
