@@ -7,5 +7,6 @@ from books import models
 
 class BooksViewSet(viewsets.ModelViewSet):
     permission_classes = (IsAuthenticated,)
+    
     serializer_class = serializers.BooksSerializer
     queryset = models.Books.objects.all()
